@@ -1,0 +1,26 @@
+# Node and build files
+node_modules/
+dist/
+logs/
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Prisma
+/prisma/migrations/
+
+# Postman backups
+postman/backups/
